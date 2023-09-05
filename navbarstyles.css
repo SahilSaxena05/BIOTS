@@ -1,0 +1,26 @@
+.banner-image {
+  background-image: url('img/human-biology1-scaled.jpg');
+  background-size: cover;
+  max-height: 300px; 
+}
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  margin-left: 0px;
+}
+.navbar-nav .nav-item .nav-link {
+  padding-left: 20px;
+}
+.text-black {
+  color: black !important; 
+}
+.navbar-brand {
+  color: red !important;
+  font-weight: 650;
+}
+.navbar-nav .nav-item .nav-link {
+  transition: transform 0.2s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  transform: scale(1.1);
+}
